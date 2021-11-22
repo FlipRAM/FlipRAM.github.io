@@ -2,11 +2,75 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
         <title>Portifólio Felipe Rangel</title>
+        <style>
+            
+            #perfil {
+                font-family: "Yanone Kaffeesatz", sans-serif;
+                font-size: 50px;
+            }
+
+            #descricao {
+                font-family: "Montserrat", sans-serif;
+                font-size: 25px;
+            }
+
+            #indice {
+                background-color: #248232;
+                width: 270px;
+                border-radius: 4px;
+            }
+
+            body {
+                background-color: #040f0f;
+                color:#fcfffc;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .rodape {
+                background-color: #248232;
+                font-size: 20px;
+                border-radius: 4px;
+            }
+
+            .legenda {
+                background-color: #248232;
+                margin: 4px;
+                width: 300px;
+                border-radius: 4px;
+            }
+
+            .comp-primaria {
+                font-size: 35px;
+            }
+
+            .comp-secundaria {
+                font-size: 31px;
+            }
+
+            .comp-terciaria {
+                font-size: 27px;
+            }
+
+            .comp-quaternaria {
+                font-size: 23px;
+            }
+
+            .comp-quinaria {
+                font-size: 19px;
+            }
+
+        </style>
     </head>
     <body>
         <h1><strong>Índice:</strong></h1>
-        <ol>
+        <ol id="indice">
             <li><a href="#perfil">Quem sou eu</a></li>
             <li><a href="#competencias">Competências</a></li>
             <li><a href="#links">Links</a></li>
@@ -14,16 +78,17 @@
 
         <h2 id="perfil">Felipe Rangel Bezerra</h2> 
         <img src="images/foto-de-perfil.jpeg" alt="Foto de perfil" width="300px" id="foto-de-perfil">
-        <br> <p><em>Foto tirada na escadaria da UERJ (universidade onde estudo)</em></p>
-        <br><br>Sou Estudante de Desenvolvimento de Software na Trybe, empolgado com Javascript, React e Python. Também Graduando em Engenharia elétrica com ênfase em sistemas de computação na Universidade do Estado do Rio de Janeiro (UERJ). Inglês avançado e espanhol intermediário, conhecimento do pacote office, desenho técnico e Photoshop.
+        <p class="legenda"><em>Brasileiro, residindo em Rio de Janeiro, RJ</em></p>
+        <p class="legenda"><em>Foto tirada na escadaria da UERJ (universidade onde estudo)</em></p>
+        <br><br><p id="descricao">Sou Estudante de Desenvolvimento de Software na Trybe, empolgado com Javascript, React e Python. Também Graduando em Engenharia elétrica com ênfase em sistemas de computação na Universidade do Estado do Rio de Janeiro (UERJ). Inglês avançado e espanhol intermediário, conhecimento do pacote office, desenho técnico e Photoshop.</p>
         <ul id="competencias">
-            <li><strong>Python</strong></li>
-            <li><strong>Inglês</strong></li>
-            <li><strong>Excel</strong></li>
-            <li>Pontualidade</li>
-            <li>Autogestão</li>
+            <li class="comp-primaria"><strong>Python</strong></li>
+            <li class="comp-secundaria"><strong>Inglês</strong></li>
+            <li class="comp-terciaria"><strong>Excel</strong></li>
+            <li class="comp-quaternaria">Pontualidade</li>
+            <li class="comp-quinaria">Autogestão</li>
         </ul>
-        <a href="#foto-de-perfil" id="links">Foto de perfil</a>
-        <a href="https://www.vsauce.com/#/" target="_blank">VSauce</a>
+        <a href="#foto-de-perfil" id="links" class="rodape">Foto de perfil</a><br>
+        <a href="https://www.vsauce.com/#/" target="_blank" class="rodape">VSauce</a>
         
     </body>
