@@ -1,11 +1,15 @@
 #perfil {
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 50px;
+    text-align: center;
 }
 
-#descricao {
+.descricao {
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
+    position: absolute;
+    top: 5%;
+    left: 380px;
 }
 
 #indice {
@@ -15,21 +19,37 @@
 }
 
 #foto-de-perfil {
-    border-radius: 50%;
+    /*border-radius: 50%;
     border-color: #2ba84a;
-    border-style: solid;
+    border-style: solid;*/
+    float: left;
+    width: 342px;
+    padding: 4px;
+    background-color: #248232;
 }
 
-li {
-    background-color: #2d3a3a;
+ul li:nth-child(odd) {
+    background-color: #248224;
     margin: 8px auto;
-    width: 150px;
-    
+    width: 200px;
+}
+
+ul li:nth-child(even) {
+    background-color: #2ba84a;
+    margin: 8px auto;
+    width: 200px;
+}
+
+ol li {
+    background-color: #248224;
+    margin: 8px auto;
+    width: 200px;
 }
 
 body {
     background-color: #040f0f;
     color:#fcfffc;
+    padding: 3%;
     text-align: center;
 }
 
@@ -44,50 +64,36 @@ a {
     margin: 10px;
 }
 
-.legenda {
+.residencia {
     background-color: #248232;
     margin: 4px auto;
     width: 300px;
     border-radius: 4px;
+    position: relative;
+    left: -40%;
 }
 
-.comp-primaria {
+.python {
     font-size: 35px;
 }
 
-.comp-secundaria {
+.ingles {
     font-size: 31px;
 }
 
-.comp-terciaria {
+.excel {
     font-size: 27px;
 }
 
-.comp-quaternaria {
+.pontualidade {
     font-size: 23px;
 }
 
-.comp-quinaria {
+.autogestao {
     font-size: 19px;
 }
 
-.picture {
-    width: 350px;
-}
-
-.description {
-    width: 50%;
-    text-align: center;
-}
-
-.picture, .description {
-    display: inline-block;
-    vertical-align: middle;
-    height: fit-content;
-    margin: 0;
-}
-
-.banner {
-    position: absolute;
-    z-index: 1;
+.image-container {
+    height: 350px;
+    position: relative;
 }
