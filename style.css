@@ -1,0 +1,72 @@
+#perfil {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 50px;
+}
+
+#descricao {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+#indice {
+    width: 270px;
+    border-radius: 4px;
+    margin: auto;
+}
+
+#foto-de-perfil {
+    border-radius: 50%;
+    border-color: #2ba84a;
+    border-style: solid;
+}
+
+li {
+    background-color: #2d3a3a;
+    margin: 8px auto;
+    width: 150px;
+    
+}
+
+body {
+    background-color: #040f0f;
+    color:#fcfffc;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.rodape {
+    background-color: #248232;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.legenda {
+    background-color: #248232;
+    margin: 4px auto;
+    width: 300px;
+    border-radius: 4px;
+}
+
+.comp-primaria {
+    font-size: 35px;
+}
+
+.comp-secundaria {
+    font-size: 31px;
+}
+
+.comp-terciaria {
+    font-size: 27px;
+}
+
+.comp-quaternaria {
+    font-size: 23px;
+}
+
+.comp-quinaria {
+    font-size: 19px;
+}
