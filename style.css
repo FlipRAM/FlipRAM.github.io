@@ -70,3 +70,24 @@ a {
 .comp-quinaria {
     font-size: 19px;
 }
+
+.picture {
+    width: 350px;
+}
+
+.description {
+    width: 50%;
+    text-align: center;
+}
+
+.picture, .description {
+    display: inline-block;
+    vertical-align: middle;
+    height: fit-content;
+    margin: 0;
+}
+
+.banner {
+    position: absolute;
+    z-index: 1;
+}
