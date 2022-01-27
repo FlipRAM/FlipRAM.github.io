@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+}
+
+nav {
+    margin-top: 100px;
+    width: 600px;
+    margin-left: 400px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+article, aside {
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+article {
+    width: 800px;
+}
+
+aside {
+    width: 400px;
+    margin-left: 70px;
+}
+
+#minha_foto, #link-externo, table {
+    display: block;
+    margin-left: 500px;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+    display: inline-block;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+#titulo {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+#link-externo {
+    margin-left: 600px;
+}
+
+#minha_foto {
+    width: 300px;
+    border: 4px solid green;
+}
+
+#rodape {
+    text-align: center;
+}
+
