@@ -4,7 +4,7 @@
   color: #fcfffc;
 }
 
-a {
+#indice a {
   text-decoration: none;
 }
 
@@ -93,6 +93,28 @@ div.image-subtitle {
 }
 
 #competencias-header {
+  font-size: 70px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #040f0f;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+ul#project-list {
+  list-style-type: none;
+}
+
+ul#project-list li a {
+  text-decoration: none;
+}
+
+#project-header {
   font-size: 70px;
 }
 
