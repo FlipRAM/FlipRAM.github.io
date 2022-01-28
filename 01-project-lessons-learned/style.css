@@ -60,9 +60,11 @@ nav ul {
 }
 
 #link-externo {
-  font-size: 60px;
+  font-size: 80px;
   font-family: "Yanone Kaffeesatz", sans-serif;
   margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
 }
 
 table {
