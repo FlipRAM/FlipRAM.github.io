@@ -9,29 +9,36 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h1><strong>Índice:</strong></h1>
+      <nav>
+        <h1><strong>Índice</strong></h1>
         <ol id="indice">
             <li><a href="#perfil">Quem sou eu</a></li>
             <li><a href="#competencias">Competências</a></li>
             <li><a href="#links">Links</a></li>
         </ol>
-        <div class="name">
-            <h2 id="perfil">Felipe Rangel Bezerra</h2> 
-            <div class="image-container">
-                <img src="images/foto-de-perfil.jpeg" alt="Foto de perfil" id="foto-de-perfil">
+      </nav>
+        <div class="content">
+          <div class="image-container">
+            <div class="image-subtitle">
+                  <h2 id="perfil">Felipe Rangel Bezerra</h2> 
+                  <img src="images/foto-de-perfil.jpeg" alt="Foto de perfil" id="foto-de-perfil">
+                  <p class="residencia"><em>Brasileiro, residindo em Rio de Janeiro, RJ</em></p>
+                  <p class="residencia"><em>Foto tirada na escadaria da UERJ (universidade onde estudo)</em></p>
+                </div>
                 <p class="descricao">Sou Estudante de Desenvolvimento Web na Trybe, empolgado com Javascript, React e Python. Também Graduando em Engenharia elétrica com ênfase em sistemas de computação na Universidade do Estado do Rio de Janeiro (UERJ). Inglês avançado e espanhol intermediário, conhecimento do pacote office, desenho técnico e Photoshop.</p>
             </div>
+            <h2 id="competencias-header">Competências:</h2><br>
+            <ul id="competencias">
+              <li class="python"><strong>Python</strong></li>
+              <li class="ingles"><strong>Inglês</strong></li>
+              <li class="excel"><strong>Excel</strong></li>
+              <li class="pontualidade">Pontualidade</li>
+              <li class="autogestao">Autogestão</li>
+            </ul>
         </div>
-        <p class="residencia"><em>Brasileiro, residindo em Rio de Janeiro, RJ</em></p>
-        <p class="residencia"><em>Foto tirada na escadaria da UERJ (universidade onde estudo)</em></p>
-        <ul id="competencias">
-            <li class="python"><strong>Python</strong></li>
-            <li class="ingles"><strong>Inglês</strong></li>
-            <li class="excel"><strong>Excel</strong></li>
-            <li class="pontualidade">Pontualidade</li>
-            <li class="autogestao">Autogestão</li>
-        </ul>
+      <footer>
         <a href="#foto-de-perfil" id="links" class="rodape">Foto de perfil</a>
         <a href="https://www.vsauce.com/#/" target="_blank" class="rodape">VSauce</a>
+      </footer>
         
     </body>
