@@ -109,8 +109,15 @@ div.image-subtitle {
   padding-bottom: 20px;
 }
 
+#project-list {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
 ul#project-list {
   list-style-type: none;
+  text-align: center;
 }
 
 ul#project-list li a {
