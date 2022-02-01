@@ -1,7 +1,82 @@
+body {
+  background-color: rgb(14, 165, 9);
+}
+
 .selected {
-  background-color: rgb(128, 128, 128);
+  background-color: rgb(220, 220, 220);
 }
 
 .completed {
   text-decoration: line-through;
+  opacity: 60%;
+}
+
+li {
+  font-size: 20px;
+}
+
+#content {
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  margin: 50px 20px;
+  padding: 30px 20px;
+  border-radius: 20px;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+
+}
+
+#input {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+#texto-tarefa {
+  margin-right: 20px;
+  width: 40%;
+  min-width: 200px;
+}
+
+#funcionamento {
+  font-style: italic;
+  color: rgb(97, 97, 97)
+}
+
+#commands {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.btn {
+  color: white;
+}
+
+#remover-selecionado, #mover-cima, #mover-baixo, #remover-finalizados, #apaga-tudo, #salvar-tarefas {
+  border-radius: 20px;
+  min-width: 80px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+#remover-selecionado, #apaga-tudo {
+  background-color: rgb(211, 50, 50);
+}
+
+#mover-cima, #mover-baixo {
+  background-color: rgb(255, 136, 0);
+}
+
+#salvar-tarefas {
+  background-color: rgb(14, 165, 9);
+}
+
+#remover-finalizados {
+  background-color: rgb(0, 140, 255);
 }
