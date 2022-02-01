@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Guess the Color</title>
+</head>
+<body onload="appendRightColor()">
+  <header><h1 id="title">Advinhe a cor!</h1></header>
+  <p id="rgb-color">(168, 34, 1)</p>
+  <p>Placar: <span id="score">0</span></p>
+  <div id="arrange-of-balls">
+    <div class="ball" id="ball1"></div>
+    <div class="ball" id="ball2"></div>
+    <div class="ball" id="ball3"></div>
+    <div class="ball" id="ball4"></div>
+    <div class="ball" id="ball5"></div>
+    <div class="ball" id="ball6"></div>
+  </div>
+  <h2 id="answer">Escolha uma cor</h2>
+  <button id="reset-game">Reiniciar o Jogo</button>
+  <script src="script.js"></script>
+</body>
+</html>

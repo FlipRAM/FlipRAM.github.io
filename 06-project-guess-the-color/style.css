@@ -1,0 +1,32 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 24px;
+}
+
+button {
+  font-size: 16px;
+}
+
+.ball {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+#arrange-of-balls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
