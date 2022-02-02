@@ -30,3 +30,12 @@ button {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+@media screen and (max-width: 650px) {
+  .ball {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    border: 1px solid black;
+  }
+}

@@ -1,0 +1,101 @@
+#carta-texto {
+  width: 600px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#input-and-button {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+#carta-texto {
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+#criar-carta {
+  margin-bottom: 10px;
+}
+
+#carta-gerada{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+div {
+  margin: 0 5px;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(1, 167, 1);
+}
+
+.newspaper {
+  background-color: antiquewhite;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+}
+
+.magazine1 {
+  background-color: teal;
+  color: white;
+  font-family: Verdana;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.magazine2 {
+  background-image: url('images/pink-pattern.png');
+  color: fuchsia;
+  font-family: Verdana;
+  font-weight: 900;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.rotateleft {
+  transform: matrix(0.996195, -0.0871557, 0.0871557, 0.996195, 0, 0);
+}
+
+.rotateright {
+  transform: rotate(5deg);
+}
+
+.skewleft {
+  transform: skewX(10deg);
+}
+
+.skewright {
+  transform: skew(-10deg);
+}
+
+hr {
+  margin-top: 50px;
+}
+
+#description {
+  font-size: 24px;
+  text-align: center;
+}
