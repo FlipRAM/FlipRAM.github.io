@@ -38,27 +38,63 @@ const botaoEnviarShow = document.querySelector('#agreement');
 botaoEnviarShow.addEventListener('click', agreementOn);
 
 function countDownCaracters() {
-  let textToCount = document.querySelector('#textarea');
-  let textToCountSize = textToCount.value.length;
-  let contP = document.querySelector('#counter');
+  const textToCount = document.querySelector('#textarea');
+  const textToCountSize = textToCount.value.length;
+  const contP = document.querySelector('#counter');
   contP.innerText = `Caracteres restantes: ${(500 - textToCountSize).toString()}`;
 }
 
-let textArea = document.querySelector('#textarea');
+const textArea = document.querySelector('#textarea');
 textArea.addEventListener('keyup', countDownCaracters);
+
+function getFullName() {
+  const firstName = document.querySelector('#input-name');
+  const lastname = document.querySelector('#input-lastname');
+  return `${firstName.value} ${lastname.value}`;
+}
+
+function getFamily() {
+  const family = document.querySelectorAll('input[name="family"]');
+  for (let i = 0; i < family.length; i += 1) {
+    if (family[i].checked === true) {
+      return family[i].value;
+    }
+  }
+}
+
+function getContent() {
+  const content = document.querySelectorAll('input[name="contentToLearn"]');
+  const contentList = [];
+  for (let i = 0; i < content.length; i += 1) {
+    if (content[i].checked === true) {
+      contentList.push(content[i].value);
+    }
+  }
+  return contentList;
+}
+
+function getRate() {
+  const rate = document.querySelectorAll('input[name="rate"]');
+  for (let i = 0; i < rate.length; i += 1) {
+    if (rate[i].checked === true) {
+      return rate[i].value;
+    }
+  }
+}
 
 function saveForms(event) {
   event.preventDefault();
-  let name = document.querySelector('#input-name').value;
-  let lastname = document.querySelector('#input-lastname').value;
-  let email = document.querySelector('#input-email').value;
-  let houseChoose = document.querySelector('#house').value;
-  let familyChoose = document.querySelector('#family');
-  let contentChoose = document.querySelector('#content');
-  let rateChoose = document.querySelector('#rate');
-  let textarea = document.querySelector('#textarea').value;
-  document.querySelector('#nove').attr('checked="checked"');
-  console.log(rateChoose);
+  const fullName = getFullName();
+  const email = document.querySelector('#input-email').value;
+  const house = document.querySelector('#house').value;
+  const family = getFamily();
+  const content = getContent();
+  const rate = getRate();
+  const observation = document.querySelector('#textarea').value;
+  const form = document.querySelector('#evaluation-form');
+  form.innerHTML = `<p>Nome: ${fullName}</p><p>Email: ${email}</p>
+  <p>Casa: ${house}</p><p>Família: ${family}</p><p>Matérias: ${content.join(', ')}</p>
+  <p>Avaliação: ${rate}</p><p>Observações: ${observation}</p>`;
 }
 
 const buttonEnviarFill = document.querySelector('#submit-btn');
