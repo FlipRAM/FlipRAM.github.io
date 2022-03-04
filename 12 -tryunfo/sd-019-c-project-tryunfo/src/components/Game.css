@@ -1,0 +1,30 @@
+#backCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(green, darkgreen);
+  border: 16px solid white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  
+}
+
+#centerOfCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+
+#centerOfCard p {
+  background-color: white;
+  color: green;
+  font-size: 24px;
+  width: 180px;
+  transform: rotate(-10deg) skew(-10deg);
+}

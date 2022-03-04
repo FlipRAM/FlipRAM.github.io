@@ -1,0 +1,16 @@
+h2 {
+  margin-bottom: 10px;
+}
+
+input {
+  margin: 10px 0;
+}
+
+#filterIsTrunfo {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#trunfo-filter {
+  margin-right: 5px;
+}

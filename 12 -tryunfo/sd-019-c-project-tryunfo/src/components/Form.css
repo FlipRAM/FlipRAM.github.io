@@ -1,0 +1,27 @@
+form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-top: 20px;
+}
+
+form label {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+#trunfo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#trunfo-input {
+  margin-right: 5px;
+}

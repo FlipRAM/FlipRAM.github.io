@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+#content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  background-color: darkgreen;
+  width: 100%;
+  height: 60px;
+  color: white;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+#preview-card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: darkgreen;
+  width: 100%;
+  height: 700px;
+  color: white;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+.eachCard {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: darkgreen;
+  padding-top: 10px;
+}
+
+#Game {
+  background-image: url('https://http2.mlstatic.com/D_NQ_NP_639252-MLB44151384249_112020-O.webp');
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#Game button {
+  margin: 10px 0;
+}
+
+#iniciate-game {
+  margin: 10px 0;
+}
+
+#Game h2, #Game #rest {
+  color: white;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
