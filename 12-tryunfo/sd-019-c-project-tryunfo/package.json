@@ -2,7 +2,7 @@
   "name": "tryunfo",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://flipram.github.io/12-tryunfo/sd-019-c-project-tryunfo/public",
+  "homepage":"https://flipram.github.io/12-tryunfo",
   "engines": {
     "node": "16"
   },
@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "lint:styles": "npx stylelint '**/*.css'",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
   },
