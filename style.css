@@ -120,6 +120,16 @@ ul#project-list {
   text-align: center;
 }
 
+ul#project-list li {
+  border: 2px solid white;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+
+ul#project-list li:hover {
+  background-color: #252525;
+}
+
 ul#project-list li a {
   text-decoration: none;
 }
